@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9fb98479.css",
+    "main.js": "/static/js/main.2979ce8d.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/jenkins.jpg": "/static/media/jenkins.7b2ff10d3428a23dca95.jpg",
+    "static/media/ansible.jpg": "/static/media/ansible.050b1286fe3e1a54594a.jpg",
+    "static/media/lambda.jpg": "/static/media/lambda.6508cb081622c0c3863b.jpg",
+    "static/media/rds.jpg": "/static/media/rds.f63b698d2750df3a38e9.jpg",
+    "static/media/s3.jpg": "/static/media/s3.7ce659f61a810991a3b7.jpg",
+    "static/media/vpn.jpg": "/static/media/vpn.d71147b273aab1ce1884.jpg",
+    "static/media/logo.svg": "/static/media/logo.0639bfd45afc6a14d24c4c3d9158544b.svg",
+    "index.html": "/index.html",
+    "main.9fb98479.css.map": "/static/css/main.9fb98479.css.map",
+    "main.2979ce8d.js.map": "/static/js/main.2979ce8d.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fb98479.css",
+    "static/js/main.2979ce8d.js"
+  ]
+}
