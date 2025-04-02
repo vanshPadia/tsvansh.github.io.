@@ -1,0 +1,199 @@
+.about-page {
+    padding-top: 20px;
+}
+
+.about-hero {
+    padding: 8rem 2rem 4rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-intro {
+    font-size: 1.25rem;
+    color: var(--text-light);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.skills-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.experience-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: var(--primary-light);
+    border-radius: 2px;
+}
+
+.education-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.education-card,
+.cert-card {
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 1.5rem;
+    transition: var(--transition);
+}
+
+.education-card:hover,
+.cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.education-card h4,
+.cert-card h4 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.institution,
+.issuer {
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.duration {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.education-card ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+}
+
+.education-card ul li {
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.education-card ul li::before {
+    content: '•';
+    position: absolute;
+    left: -1.5rem;
+    color: var(--primary-color);
+}
+
+.description {
+    color: var(--text-light);
+}
+
+.soft-skills-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.soft-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.soft-skill {
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    text-align: center;
+    font-weight: 500;
+}
+
+.soft-skill:hover {
+    transform: translateY(-5px);
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+@media (max-width: 992px) {
+    .about-hero {
+        padding: 6rem 2rem 3rem;
+    }
+
+    .about-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-intro {
+        font-size: 1.125rem;
+    }
+
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 5rem 1rem 2rem;
+    }
+
+    .about-hero h1 {
+        font-size: 2rem;
+    }
+
+    .about-intro {
+        font-size: 1rem;
+    }
+
+    .skills-section,
+    .experience-section,
+    .education-section,
+    .soft-skills-section {
+        padding: 3rem 1rem;
+    }
+
+    .timeline {
+        padding-left: 1.5rem;
+    }
+
+    .education-card,
+    .cert-card {
+        padding: 1.25rem;
+    }
+}
